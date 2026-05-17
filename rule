@@ -1,5 +1,7 @@
-# Shadowrocket: 2026-05-12 23:46:23
+# Shadowrocket: 2026-05-15 23:58:43
 [General]
+stun-response-ip = 1.1.1.1
+stun-response-ipv6 = ::1
 bypass-system = true
 skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local
 tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32
@@ -15,6 +17,7 @@ private-ip-answer = false
 update-url = https://raw.githubusercontent.com/elviscjn-cjn/imperial-cyber-guide/refs/heads/main/rule
 
 [Proxy Group]
+出站🚉 = select,TEST3-CJNTEST3
 VPS🛜 = url-test,TEST3CDN-CJNTEST3 | 优选3 | 9,TEST3CDN-CJNTEST3 | 优选4 | 3,TEST3CDN-CJNTEST3 | 优选 | 7,TEST3CDN-CJNTEST3 | ELVIS优选IP | 1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 2,TEST3CDN-CJNTEST3 | 优选4 | 5,TEST3CDN-CJNTEST3 | ELVIS优选IP | 3,TEST3CDN-CJNTEST3 | 优选3 | 2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 4,TEST3CDN-CJNTEST3 | 优选 | 4,TEST3CDN-CJNTEST3 | 优选4 | 7,TEST3CDN-CJNTEST3 | ELVIS优选IP | 5,TEST3CDN-CJNTEST3 | 优选3 | 4,TEST3CDN-CJNTEST3 | ELVIS优选IP | 6,TEST3CDN-CJNTEST3 | 优选4 | 9,TEST3CDN-CJNTEST3 | 优选 | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 7,TEST3CDN-CJNTEST3 | 优选 | 1,TEST3CDN-CJNTEST3 | 优选3 | 6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 9,TEST3CDN-CJNTEST3 | 优选4 | 2,TEST3CDN-CJNTEST3 | 优选 | 5,TEST3CDN-CJNTEST3 | 优选3 | 8,TEST3CDN-CJNTEST3 | 优选4 | 10,TEST3CDN-CJNTEST3 | 优选4 | 4,TEST3-CJNTEST3,TEST3CDN-CJNTEST3 | 优选 | 9,TEST3CDN-CJNTEST3 | 优选 | 10,TEST3CDN-CJNTEST3 | 优选 | 2,TEST3CDN-CJNTEST3 | 优选3 | 1,TEST3CDN-CJNTEST3 | 优选4 | 6,TEST3CDN-CJNTEST3 | 优选3 | 10,TEST3CDN-CJNTEST3 | 优选3 | 3,TEST3CDN-CJNTEST3 | 优选 | 6,TEST3CDN-CJNTEST3 | 优选4 | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 10,TEST3CDN-CJNTEST3 | 优选3 | 5,TEST3CDN-CJNTEST3 | 优选 | 3,TEST3CDN-CJNTEST3 | 优选4 | 1,TEST3CDN-CJNTEST3 | 优选3 | 7,policy-select-name=TEST3CDN-CJNTEST3 | 优选 | 9,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 CDN = url-test,US🐲™️【免费共享】-4,JP🐲™️【免费共享】-6,SG🐲™️【免费共享】-8,KR🐲™️【免费共享】-10,TW🐲™️【免费共享】-5,KR🐲™️【免费共享】-2,SG🐲™️【免费共享】,US🐲™️【免费共享】-8,TW🐲™️【免费共享】,SG🐲™️【免费共享】-3,TW🐲™️【免费共享】-9,KR🐲™️【免费共享】-6,US🐲™️【免费共享】-3,JP🐲™️【免费共享】-5,SG🐲™️【免费共享】-7,TW🐲™️【免费共享】-4,US🐲™️【免费共享】-7,JP🐲™️【免费共享】,SG🐲™️【免费共享】-2,TW🐲™️【免费共享】-8,KR🐲™️【免费共享】-5,US🐲™️【免费共享】,US🐲™️【免费共享】-2,JP🐲™️【免费共享】-4,SG🐲™️【免费共享】-6,KR🐲™️【免费共享】-9,TW🐲™️【免费共享】-3,TW🐲™️【免费共享】-10,US🐲™️【免费共享】-6,JP🐲™️【免费共享】-8,TW🐲™️【免费共享】-7,KR🐲™️【免费共享】-4,SG🐲™️【免费共享】-5,JP🐲™️【免费共享】-3,KR🐲™️【免费共享】-8,TW🐲™️【免费共享】-2,KR🐲™️【免费共享】,US🐲™️【免费共享】-5,JP🐲™️【免费共享】-7,TW🐲™️【免费共享】-6,KR🐲™️【免费共享】-3,US🐲™️【免费共享】-9,SG🐲™️【免费共享】-4,JP🐲™️【免费共享】-2,KR🐲™️【免费共享】-7,US🐲™️【免费共享】-10,policy-select-name=SG🐲™️【免费共享】,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 COC = url-test,美国C-CMI专线1,美国A-CMI专线1,TEST3-CJNTEST3,加拿大-CMI专线1,LOCAL-SERVERS,美国A-CMI专线2,美国B-CMI专线2,美国C-CMI专线2,美国B-CMI专线1,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
@@ -32,7 +35,7 @@ TRADING🥸 = url-test,🇨🇳 台湾节点,🇰🇷 韩国节点,policy-select
 🎬 Disney+ = url-test,➡️优先使用,policy-select-name=➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 🎻 Spotify = url-test,➡️优先使用,policy-select-name=➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 X = url-test,TEST3CDN-CJNTEST3 | 优选3 | 9,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV-4,LOCAL-SERVERS,TEST3-CJNTEST3,TEST3CDN-CJNTEST3 | 优选 | 4,TEST3CDN-CJNTEST3 | 优选 | 8,美国C-CMI专线1,美国A-线路2 | TCP,美国C-CMI专线2,TEST3CDN-CJNTEST3 | 优选 | 1,TEST3CDN-CJNTEST3 | 优选4 | 1,TEST3CDN-CJNTEST3 | 优选 | 10,TEST3CDN-CJNTEST3 | 优选4 | 3,美国C-线路2 | TCP,TEST3CDN-CJNTEST3 | 优选 | 5,TEST3CDN-CJNTEST3 | 优选4 | 5,TEST3CDN-CJNTEST3 | 优选3 | 2,TEST3CDN-CJNTEST3 | 优选3 | 10,TEST3CDN-CJNTEST3 | 优选4 | 7,TEST3CDN-CJNTEST3 | 优选3 | 4,TEST3CDN-CJNTEST3 | 优选 | 9,TEST3CDN-CJNTEST3 | 优选4 | 9,TEST3CDN-CJNTEST3 | 优选3 | 6,美国B-线路1 | TCP,美国A-CMI专线1,TEST3CDN-CJNTEST3 | 优选3 | 8,TEST3CDN-CJNTEST3 | 优选4 | 10,美国A-CMI专线2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 3,TEST3CDN-CJNTEST3 | 优选 | 2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 4,TEST3CDN-CJNTEST3 | 优选 | 6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 5,TEST3CDN-CJNTEST3 | ELVIS优选IP | 6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 7,TEST3CDN-CJNTEST3 | ELVIS优选IP | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 9,美国B-线路2 | TCP,美国B-CMI专线1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 10,美国A-线路1 | TCP,TEST3CDN-CJNTEST3 | 优选4 | 2,TEST3CDN-CJNTEST3 | 优选 | 3,TEST3CDN-CJNTEST3 | 优选4 | 4,美国D-线路4 | HY2,TEST3CDN-CJNTEST3 | 优选3 | 1,TEST3CDN-CJNTEST3 | 优选 | 7,TEST3CDN-CJNTEST3 | 优选4 | 6,美国B-CMI专线2,TEST3CDN-CJNTEST3 | 优选3 | 3,TEST3CDN-CJNTEST3 | 优选4 | 8,TEST3CDN-CJNTEST3 | 优选3 | 5,美国C-线路1 | TCP,TEST3CDN-CJNTEST3 | 优选3 | 7,use=true,interval=600,tolerance=100,policy-select-name=美国B-CMI专线1,timeout=5,url=http://www.gstatic.com/generate_204
-🪙 Paypal = url-test,🚀 策略选择,policy-select-name=🚀 策略选择,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+🪙 Paypal[直连] = url-test,🌐 全球直连,policy-select-name=🌐 全球直连,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 📖 Reddit = url-test,➡️优先使用,policy-select-name=➡️优先使用interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 🐦 Discord = url-test,➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 📽 哔哩哔哩[直连] = select,🌐 全球直连,🇭🇰 香港节点,🇨🇳 台湾节点,policy-select-name=🌐 全球直连
@@ -65,20 +68,28 @@ GEOIP,CN,🌐 全球直连
 
 # ━━━━━━━━━━━━━━ 广告拦截与净化 ━━━━━━━━━━━━━━
 RULE-SET,https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Shadowrocket/Ruleset/AdBlock.list,REJECT
-DOMAIN-SUFFIX,app-analytics-services.com,AI
-DOMAIN-SUFFIX,www.google-analytics.com,AI
+DOMAIN-SUFFIX,app-analytics-services.com,REJECT
 
 # ━━━━━━━━━━━━━━ AI 生产力核心 (高优防封) ━━━━━━━━━━━━━━
 # OpenAI / ChatGPT
-DOMAIN-KEYWORD,openai,US专线
-DOMAIN-SUFFIX,openai.com,US专线
-DOMAIN-SUFFIX,ios.chat.openai.com,US专线
-RULE-SET,https://yfamilys.com/rule/ChatGPT.list,US专线
+DOMAIN-KEYWORD,openai,AI
+DOMAIN-SUFFIX,openai.com,AI
+DOMAIN-SUFFIX,ios.chat.openai.com,AI
+RULE-SET,https://yfamilys.com/rule/ChatGPT.list,AI
+
 # Grok / X AI
-DOMAIN-SUFFIX,grok.com,US专线
-DOMAIN-SUFFIX,grok.x.com,US专线
+DOMAIN-SUFFIX,grok.com,AI
+DOMAIN-SUFFIX,grok.x.com,AI
+
+# Gemini / Google AI
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Gemini/Gemini.list,AI
+DOMAIN-SUFFIX,www.google-analytics.com,AI
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,AI
+DOMAIN-SUFFIX,push.clients6.google.com,AI
+DOMAIN-SUFFIX,lh3.googleusercontent.com,AI
+
 # 其他 AI
-DOMAIN-SUFFIX,poe.com,US专线
+DOMAIN-SUFFIX,poe.com,AI
 RULE-SET,https://yfamilys.com/rule/ai.list,AI
 DOMAIN-SUFFIX,yfamilys.com,AI
 
@@ -100,12 +111,15 @@ DOMAIN-SUFFIX,collector.snowplow.supercell.com,COC
 DOMAIN-SUFFIX,inventory.mtech.supercell.com,COC
 DOMAIN-SUFFIX,id.supercell.com,COC
 DOMAIN-KEYWORD,supercell,COC
-DOMAIN-SUFFIX,store.supercell.com,US专线
+DOMAIN-SUFFIX,store.supercell.com,COC
 
 # 英雄联盟 (国服掌盟/接口)
 DOMAIN-SUFFIX,mlol.qt.qq.com,🌐 全球直连
 DOMAIN-SUFFIX,otheve.beacon.qq.com,🌐 全球直连
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com,🌐 全球直连
+DOMAIN-SUFFIX,lol.secure.dyn.riotcdn.net,US专线
+DOMAIN-SUFFIX,mtrace.qq.com,🌐 全球直连
+DOMAIN-SUFFIX,oth.str.mdt.qq.com,🌐 全球直连
 DOMAIN-SUFFIX,lol.secure.dyn.riotcdn.net,US专线
 
 # 主机/PC 平台
@@ -142,12 +156,15 @@ DOMAIN-SUFFIX,ebanking1.ccb.com.cn,🌐 全球直连
 DOMAIN-SUFFIX,touch.ccb.com,🌐 全球直连
 DOMAIN-SUFFIX,xc.mobile3.ccb.cn,🌐 全球直连
 DOMAIN-SUFFIX,mbs.ccb.com,🌐 全球直连
+
 # 港卡数字银行
 DOMAIN-SUFFIX,t1.welab.bank,🌐 全球直连
 DOMAIN-SUFFIX,content.welab.bank,🌐 全球直连
 DOMAIN-SUFFIX,bankappgw.za.group,🌐 全球直连
+
 # 国际支付
-RULE-SET,https://yfamilys.com/rule/PayPal.list,🪙 PAYPAL
+DOMAIN-KEYWORD,wise.com,🌐 全球直连
+RULE-SET,https://yfamilys.com/rule/PayPal.list,🪙 PAYPAL[直连]
 
 # ━━━━━━━━━━━━━━ 社交媒体 (精准分流) ━━━━━━━━━━━━━━
 # X (Twitter)
@@ -156,13 +173,19 @@ DOMAIN-SUFFIX,chat-ws.x.com,X
 DOMAIN-SUFFIX,probe.twitter.com,X
 DOMAIN-SUFFIX,api.twitter.com,X
 RULE-SET,https://yfamilys.com/rule/Twitter.list,X
+
 # Telegram
 RULE-SET,https://yfamilys.com/rule/Telegram.list,📲 TELEGRAM
+
 # Instagram & Facebook
 DOMAIN-KEYWORD,instagram,➡️优先使用
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Instagram/Instagram.list,➡️优先使用
 DOMAIN-SUFFIX,graph.instagram.com,➡️优先使用
+DOMAIN-SUFFIX,app-analytics-services.com,➡️优先使用
+DOMAIN-SUFFIX,graph.facebook.com,➡️优先使用
+DOMAIN-SUFFIX,graph.instagram.com,➡️优先使用
 RULE-SET,https://yfamilys.com/rule/Facebook.list,👤 FACEBOOK
+
 # Discord & Reddit
 RULE-SET,https://yfamilys.com/rule/Discord.list,🐦 DISCORD
 RULE-SET,https://yfamilys.com/rule/Reddit.list,📖 REDDIT
@@ -280,14 +303,11 @@ RULE-SET,https://yfamilys.com/rule/Douyu.list,🌐 全球直连
 RULE-SET,https://yfamilys.com/rule/ChinaMedia.list,🍔 国内媒体[直连]
 
 # ━━━━━━━━━━━━━━ Google 基础框架与杂项 ━━━━━━━━━━━━━━
-DOMAIN-SUFFIX,google.com,US专线
-DOMAIN-SUFFIX,play.googleapis.com,US专线
-DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com,US专线
-DOMAIN-SUFFIX,oauth2.googleapis.com,US专线
-DOMAIN-SUFFIX,people-pa.googleapis.com,US专线
-DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,US专线
-DOMAIN-SUFFIX,push.clients6.google.com,US专线
-DOMAIN-SUFFIX,lh3.googleusercontent.com,AI
+DOMAIN-SUFFIX,google.com,➡️优先使用
+DOMAIN-SUFFIX,play.googleapis.com,➡️优先使用
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com,➡️优先使用
+DOMAIN-SUFFIX,oauth2.googleapis.com,➡️优先使用
+DOMAIN-SUFFIX,people-pa.googleapis.com,➡️优先使用
 RULE-SET,https://yfamilys.com/rule/Google.list,➡️优先使用
 RULE-SET,https://yfamilys.com/rule/Microsoft.list,Ⓜ️ 微软服务[直连]
 DOMAIN-SUFFIX,elviscjngood.ccwu.cc,➡️优先使用
