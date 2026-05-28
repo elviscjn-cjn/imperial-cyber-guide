@@ -70,6 +70,11 @@ GEOIP,CN,🌐 全球直连
 RULE-SET,https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Shadowrocket/Ruleset/AdBlock.list,REJECT
 DOMAIN-SUFFIX,app-analytics-services.com,REJECT
 
+# ━━━━━━━━━━━━━━ GITHUB (开发者核心 / 防卡死) ━━━━━━━━━━━━━━
+DOMAIN-KEYWORD,github,US专线
+DOMAIN-SUFFIX,github.com,US专线
+DOMAIN-SUFFIX,githubusercontent.com,US专线
+
 # ━━━━━━━━━━━━━━ AI 生产力核心 (高优防封) ━━━━━━━━━━━━━━
 # OpenAI / ChatGPT
 DOMAIN-KEYWORD,openai,AI
