@@ -1,4 +1,4 @@
-# Shadowrocket: 2026-05-28 23:27:41
+# Shadowrocket: 2026-06-01 20:50:56
 [General]
 stun-response-ip = 1.1.1.1
 stun-response-ipv6 = ::1
@@ -18,43 +18,81 @@ update-url = https://raw.githubusercontent.com/elviscjn-cjn/imperial-cyber-guide
 
 [Proxy Group]
 🌐 全球直连 = select,DIRECT
+
 出站🚉 = select,TEST3-CJNTEST3
+
 VPS🛜 = url-test,TEST3CDN-CJNTEST3 | 优选3 | 9,TEST3CDN-CJNTEST3 | 优选4 | 3,TEST3CDN-CJNTEST3 | 优选 | 7,TEST3CDN-CJNTEST3 | ELVIS优选IP | 1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 2,TEST3CDN-CJNTEST3 | 优选4 | 5,TEST3CDN-CJNTEST3 | ELVIS优选IP | 3,TEST3CDN-CJNTEST3 | 优选3 | 2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 4,TEST3CDN-CJNTEST3 | 优选 | 4,TEST3CDN-CJNTEST3 | 优选4 | 7,TEST3CDN-CJNTEST3 | ELVIS优选IP | 5,TEST3CDN-CJNTEST3 | 优选3 | 4,TEST3CDN-CJNTEST3 | ELVIS优选IP | 6,TEST3CDN-CJNTEST3 | 优选4 | 9,TEST3CDN-CJNTEST3 | 优选 | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 7,TEST3CDN-CJNTEST3 | 优选 | 1,TEST3CDN-CJNTEST3 | 优选3 | 6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 9,TEST3CDN-CJNTEST3 | 优选4 | 2,TEST3CDN-CJNTEST3 | 优选 | 5,TEST3CDN-CJNTEST3 | 优选3 | 8,TEST3CDN-CJNTEST3 | 优选4 | 10,TEST3CDN-CJNTEST3 | 优选4 | 4,TEST3-CJNTEST3,TEST3CDN-CJNTEST3 | 优选 | 9,TEST3CDN-CJNTEST3 | 优选 | 10,TEST3CDN-CJNTEST3 | 优选 | 2,TEST3CDN-CJNTEST3 | 优选3 | 1,TEST3CDN-CJNTEST3 | 优选4 | 6,TEST3CDN-CJNTEST3 | 优选3 | 10,TEST3CDN-CJNTEST3 | 优选3 | 3,TEST3CDN-CJNTEST3 | 优选 | 6,TEST3CDN-CJNTEST3 | 优选4 | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 10,TEST3CDN-CJNTEST3 | 优选3 | 5,TEST3CDN-CJNTEST3 | 优选 | 3,TEST3CDN-CJNTEST3 | 优选4 | 1,TEST3CDN-CJNTEST3 | 优选3 | 7,policy-select-name=TEST3CDN-CJNTEST3 | 优选 | 9,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 CDN = url-test,US🐲™️【免费共享】-4,JP🐲™️【免费共享】-6,SG🐲™️【免费共享】-8,KR🐲™️【免费共享】-10,TW🐲™️【免费共享】-5,KR🐲™️【免费共享】-2,SG🐲™️【免费共享】,US🐲™️【免费共享】-8,TW🐲™️【免费共享】,SG🐲™️【免费共享】-3,TW🐲™️【免费共享】-9,KR🐲™️【免费共享】-6,US🐲™️【免费共享】-3,JP🐲™️【免费共享】-5,SG🐲™️【免费共享】-7,TW🐲™️【免费共享】-4,US🐲™️【免费共享】-7,JP🐲™️【免费共享】,SG🐲™️【免费共享】-2,TW🐲™️【免费共享】-8,KR🐲™️【免费共享】-5,US🐲™️【免费共享】,US🐲™️【免费共享】-2,JP🐲™️【免费共享】-4,SG🐲™️【免费共享】-6,KR🐲™️【免费共享】-9,TW🐲™️【免费共享】-3,TW🐲™️【免费共享】-10,US🐲™️【免费共享】-6,JP🐲™️【免费共享】-8,TW🐲™️【免费共享】-7,KR🐲™️【免费共享】-4,SG🐲™️【免费共享】-5,JP🐲™️【免费共享】-3,KR🐲™️【免费共享】-8,TW🐲™️【免费共享】-2,KR🐲™️【免费共享】,US🐲™️【免费共享】-5,JP🐲™️【免费共享】-7,TW🐲™️【免费共享】-6,KR🐲™️【免费共享】-3,US🐲™️【免费共享】-9,SG🐲™️【免费共享】-4,JP🐲™️【免费共享】-2,KR🐲™️【免费共享】-7,US🐲™️【免费共享】-10,policy-select-name=SG🐲™️【免费共享】,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
 COC = url-test,美国C-CMI专线1,美国A-CMI专线1,TEST3-CJNTEST3,加拿大-CMI专线1,LOCAL-SERVERS,美国A-CMI专线2,美国B-CMI专线2,美国C-CMI专线2,美国B-CMI专线1,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 ➡️优先使用 = url-test,加拿大-线路1 | TCP,US🐲™️【免费共享】-9,TEST3CDN-CJNTEST3 | 优选 | 10,日本B-线路1 | TCP,TEST1-CJINTEST1,KR🐲™️【免费共享】-8,TW🐲™️【免费共享】-6,SG🐲™️【免费共享】-2,US🐲™️【免费共享】-4,TW🐲™️【免费共享】-10,美国A-线路1 | TCP,SG🐲™️【免费共享】,KR🐲™️【免费共享】-3,TEST3CDN-CJNTEST3 | 优选 | 7,TEST3CDN-CJNTEST3 | 优选3 | 2,JP🐲™️【免费共享】-4,TEST3CDN-CJNTEST3 | 优选 | 4,日本C-线路1 | TCP,SG🐲™️【免费共享】-6,US🐲™️【免费共享】-8,TEST3CDN-CJNTEST3 | 优选3 | 7,TEST3CDN-CJNTEST3 | 优选 | 1,KR🐲™️【免费共享】-7,越南-线路1 | TCP,香港A-线路1 | TCP,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV-2,美国B-线路1 | TCP,US🐲™️【免费共享】-3,TW🐲™️【免费共享】-5,日本A-线路2 | TCP,新加坡C-线路1 | TCP,JP🐲™️【免费共享】-8,新加坡A-线路1 | TCP,TEST2-CJN2,KR🐲™️【免费共享】-2,KR🐲™️【免费共享】-10,TEST3CDN-CJNTEST3 | 优选3 | 4,摩尔多瓦-线路1 | TCP,JP🐲™️【免费共享】-3,TW🐲™️【免费共享】-9,SG🐲™️【免费共享】-5,US🐲™️【免费共享】-7,TEST3CDN-CJNTEST3 | 优选 | 8,美国C-线路1 | TCP,香港B-线路1 | TCP,日本B-线路2 | TCP,KR🐲™️【免费共享】-6,TW🐲™️【免费共享】-4,TEST3CDN-CJNTEST3 | 优选3 | 9,TEST3CDN-CJNTEST3 | 优选 | 5,TEST3CDN-CJNTEST3 | 优选3 | 1,台湾-线路1 | TCP,新加坡B-线路2 | TCP,US🐲™️【免费共享】-2,JP🐲™️【免费共享】-7,TEST3CDN-CJNTEST3 | 优选 | 2,美国A-线路2 | TCP,美国D-线路4 | HY2,JP🐲™️【免费共享】,JP🐲™️【免费共享】-2,TEST3CDN-CJNTEST3 | 优选3 | 6,英国-线路1 | TCP,TW🐲™️【免费共享】-8,SG🐲™️【免费共享】-4,日本C-线路2 | TCP,US🐲™️【免费共享】-6,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV-3,TEST3CDN-CJNTEST3 | ELVIS优选IP | 1,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV,TEST3CDN-CJNTEST3 | ELVIS优选IP | 2,德国-线路4 | HY2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 3,TEST3-CJNTEST3,TEST3CDN-CJNTEST3 | ELVIS优选IP | 4,TW🐲™️【免费共享】-3,KR🐲™️【免费共享】-5,TEST3CDN-CJNTEST3 | ELVIS优选IP | 5,美国B-线路2 | TCP,香港A-线路2 | TCP,TEST3CDN-CJNTEST3 | ELVIS优选IP | 6,TEST3CDN-CJNTEST3 | 优选3 | 3,JP🐲™️【免费共享】-6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 7,TEST3CDN-CJNTEST3 | 优选 | 9,TEST3CDN-CJNTEST3 | ELVIS优选IP | 8,德国-线路2 | TCP,TW🐲™️【免费共享】,TEST3CDN-CJNTEST3 | ELVIS优选IP | 9,SG🐲™️【免费共享】-8,TEST3CDN-CJNTEST3 | 优选 | 6,KR🐲™️【免费共享】-9,TW🐲™️【免费共享】-7,日本A-线路1 | TCP,US🐲™️【免费共享】-5,TEST3CDN-CJNTEST3 | 优选 | 3,TEST3CDN-CJNTEST3 | 优选3 | 8,LOCAL-SERVERS,新加坡B-线路1 | TCP,香港B-线路2 | TCP,美国C-线路2 | TCP,TEST3CDN-CJNTEST3 | ELVIS优选IP | 10,德国-线路1 | TCP,TW🐲™️【免费共享】-2,KR🐲™️【免费共享】-4,US🐲™️【免费共享】,TEST3CDN-CJNTEST3 | 优选3 | 10,新加坡C-线路2 | TCP,新加坡A-线路2 | TCP,KR🐲™️【免费共享】,加拿大-线路4 | HY2,JP🐲™️【免费共享】-5,US🐲™️【免费共享】-10,TEST3CDN-CJNTEST3 | 优选3 | 5,SG🐲™️【免费共享】-7,use=true,policy-select-name=SG🐲™️【免费共享】,interval=600,tolerance=50,timeout=5,url=http://www.gstatic.com/generate_204
-US专线 = url-test,美国C-CMI专线2,美国B-CMI专线2,美国A-CMI专线2,美国C-CMI专线1,美国B-CMI专线1,美国A-CMI专线1,policy-select-name=美国C-CMI专线2,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
-AI = url-test,US专线,interval=600,tolerance=50,timeout=5,url=http://www.gstatic.com/generate_204
+
+专线 = url-test,美国A-CMI专线1,美国A-CMI专线2,美国B-CMI专线1,美国B-CMI专线2,美国C-CMI专线1,美国C-CMI专线2,德国-CMI专线1,德国-CMI专线2,加拿大-CMI专线1,台湾-CMI专线1,英国-CMI专线1,新加坡A-CMI专线1,新加坡A-CMI专线2,新加坡B-CMI专线1,新加坡B-CMI专线2,新加坡C-CMI专线1,新加坡C-CMI专线2,香港A-CMI专线1,香港B-CMI专线1,香港C-CMI专线2,日本A-CMI专线1,日本A-CMI专线2,日本B-CMI专线1,日本B-CMI专线2,日本C-CMI专线1,日本C-CMI专线2,摩尔多瓦-CMI专线1,越南-CMI专线1,interval=600,tolerance=50,timeout=5,url=http://www.gstatic.com/generate_204
+
+US专线/US券商 = url-test,美国C-CMI专线2,美国B-CMI专线2,美国A-CMI专线2,美国C-CMI专线1,美国B-CMI专线1,美国A-CMI专线1,加拿大-CMI专线1,policy-select-name=美国C-CMI专线2,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
+台湾专线(crypto) = url-test,台湾-CMI专线1,台湾-HINET专线,policy-select-name=台湾-CMI专线1,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
+AI = url-test,美国A-CMI专线1,美国A-CMI专线2,美国B-CMI专线1,美国B-CMI专线2,美国C-CMI专线1,美国C-CMI专线2,德国-CMI专线1,德国-CMI专线2,加拿大-CMI专线1,英国-CMI专线1,新加坡A-CMI专线1,新加坡A-CMI专线2,新加坡B-CMI专线1,新加坡B-CMI专线2,新加坡C-CMI专线1,新加坡C-CMI专线2,日本A-CMI专线1,日本A-CMI专线2,日本B-CMI专线1,日本B-CMI专线2,日本C-CMI专线1,日本C-CMI专线2,interval=600,tolerance=50,timeout=5,url=http://www.gstatic.com/generate_204
+
 H = url-test,TW🐲™️【免费共享】,TW🐲™️【免费共享】-5,TW🐲™️【免费共享】-3,TW🐲™️【免费共享】-8,TW🐲™️【免费共享】-6,TW🐲™️【免费共享】-10,TW🐲™️【免费共享】-9,TW🐲™️【免费共享】-4,TW🐲™️【免费共享】-7,TW🐲™️【免费共享】-2,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 抖音 = select,🌐 全球直连
-🚀 策略选择 = url-test,♻️ ALL,🇨🇳 台湾节点,🇬🇧 英国节点,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,🇺🇸 美国节点,🇰🇷 韩国节点,🇷🇺 俄罗斯节点,🇮🇳 印度,🇩🇪 德国,🇨🇦 加拿大,ELVISCJNGOOD.CCWU.CC,LOCAL-SERVERS,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV-2,CDN,VPS🛜,➡️优先使用,policy-select-name=CDN,interval=600,tolerance=50,timeout=5,url=http://www.gstatic.com/generate_204
-♻️ ALL = url-test,新加坡C-CMI专线2,德国-CMI专线1,摩尔多瓦-CMI专线1,日本B-CMI专线2,新加坡B-CMI专线1,日本C-CMI专线1,德国-CMI专线2,JP🐲™️【免费共享】-6,SG🐲™️【免费共享】-3,TEST3CDN-CJNTEST3 | 优选 | 10,KR🐲™️【免费共享】,加拿大-线路1 | TCP,KR🐲™️【免费共享】-4,香港B-线路1 | TCP,TEST3CDN-CJNTEST3 | 优选 | 9,TEST3CDN-CJNTEST3 | 优选 | 8,TEST3CDN-CJNTEST3 | 优选 | 7,TEST3CDN-CJNTEST3 | 优选 | 6,TEST3CDN-CJNTEST3 | 优选 | 5,TEST3CDN-CJNTEST3 | 优选 | 4,日本C-线路2 | TCP,TEST3CDN-CJNTEST3 | 优选 | 2,TEST3CDN-CJNTEST3 | 优选 | 1,美国A-CMI专线1,日本C-CMI专线2,US🐲™️【免费共享】-5,TEST3CDN-CJNTEST3 | 优选 | 3,美国C-线路2 | TCP,德国-线路1 | TCP,SG🐲™️【免费共享】-7,香港A-线路1 | TCP,美国B-线路2 | TCP,越南-线路1 | TCP,US🐲™️【免费共享】,日本B-线路2 | TCP,新加坡B-CMI专线2,JP🐲™️【免费共享】-3,KR🐲™️【免费共享】-8,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV-2,新加坡A-CMI专线1,TEST3-CJNTEST3,美国A-线路2 | TCP,美国A-CMI专线2,TW🐲™️【免费共享】-3,US🐲™️【免费共享】-9,日本A-线路2 | TCP,美国B-CMI专线1,US🐲™️【免费共享】-2,TEST3CDN-CJNTEST3 | 优选4 | 9,TEST3CDN-CJNTEST3 | 优选4 | 8,JP🐲™️【免费共享】-7,TEST3CDN-CJNTEST3 | 优选4 | 7,SG🐲™️【免费共享】-4,美国D-线路4 | HY2,TEST3CDN-CJNTEST3 | 优选4 | 6,美国B-CMI专线2,TEST3CDN-CJNTEST3 | 优选4 | 5,TW🐲™️【免费共享】-7,TEST3CDN-CJNTEST3 | 优选4 | 4,TEST3CDN-CJNTEST3 | ELVIS优选IP | 1,英国-CMI专线1,TEST3CDN-CJNTEST3 | 优选4 | 3,美国C-CMI专线1,TEST3CDN-CJNTEST3 | 优选4 | 2,新加坡A-CMI专线2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 2,TEST3CDN-CJNTEST3 | 优选4 | 1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 3,TEST3CDN-CJNTEST3 | ELVIS优选IP | 4,KR🐲™️【免费共享】-5,US🐲™️【免费共享】-6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 5,越南-CMI专线1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 6,TW🐲™️【免费共享】,TEST3CDN-CJNTEST3 | ELVIS优选IP | 7,SG🐲™️【免费共享】-8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 9,TEST3CDN-CJNTEST3 | ELVIS优选IP | 10,美国C-CMI专线2,JP🐲™️【免费共享】-4,KR🐲™️【免费共享】-9,JP🐲™️【免费共享】,香港A-CMI专线1,TEST3CDN-CJNTEST3 | 优选4 | 10,新加坡A-线路2 | TCP,新加坡C-线路2 | TCP,德国-线路2 | TCP,TW🐲™️【免费共享】-4,KR🐲™️【免费共享】-2,英国-线路1 | TCP,US🐲™️【免费共享】-3,香港B-线路2 | TCP,JP🐲™️【免费共享】-8,SG🐲™️【免费共享】-5,台湾-线路1 | TCP,美国C-线路1 | TCP,香港B-CMI专线1,TW🐲™️【免费共享】-8,日本C-线路1 | TCP,KR🐲™️【免费共享】-6,新加坡B-线路2 | TCP,香港A-线路2 | TCP,美国B-线路1 | TCP,US🐲™️【免费共享】-7,日本B-线路1 | TCP,TW🐲™️【免费共享】-10,美国A-线路1 | TCP,德国-线路4 | HY2,JP🐲™️【免费共享】-5,SG🐲™️【免费共享】-2,日本A-线路1 | TCP,新加坡A-线路1 | TCP,新加坡C-线路1 | TCP,TEST3CDN-CJNTEST3 | 优选3 | 9,TEST3CDN-CJNTEST3 | 优选3 | 10,KR🐲™️【免费共享】-10,日本A-CMI专线1,加拿大-CMI专线1,TEST3CDN-CJNTEST3 | 优选3 | 8,TEST3CDN-CJNTEST3 | 优选3 | 7,KR🐲™️【免费共享】-3,台湾-CMI专线1,TEST3CDN-CJNTEST3 | 优选3 | 6,香港C-CMI专线2,新加坡C-CMI专线1,TEST3CDN-CJNTEST3 | 优选3 | 5,TW🐲™️【免费共享】-5,TEST3CDN-CJNTEST3 | 优选3 | 4,US🐲™️【免费共享】-4,加拿大-线路4 | HY2,TEST3CDN-CJNTEST3 | 优选3 | 3,SG🐲™️【免费共享】,TEST3CDN-CJNTEST3 | 优选3 | 2,SG🐲™️【免费共享】-6,TEST3CDN-CJNTEST3 | 优选3 | 1,日本A-CMI专线2,摩尔多瓦-线路1 | TCP,TW🐲™️【免费共享】-9,日本B-CMI专线1,新加坡B-线路1 | TCP,JP🐲™️【免费共享】-2,KR🐲™️【免费共享】-7,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV,TW🐲™️【免费共享】-2,US🐲™️【免费共享】-10,US🐲™️【免费共享】-8,use=true,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=.*
+
+♻️ ALL = url-test,新加坡C-CMI专线2,德国-CMI专线1,摩尔多瓦-CMI专线1,日本B-CMI专线2,新加坡B-CMI专线1,日本C-CMI专线1,德国-CMI专线2,JP🐲™️【免费共享】-6,SG🐲™️【免费共享】-3,台湾-HINET专线,TEST3CDN-CJNTEST3 | 优选 | 10,KR🐲™️【免费共享】,加拿大-线路1 | TCP,KR🐲™️【免费共享】-4,香港B-线路1 | TCP,TEST3CDN-CJNTEST3 | 优选 | 9,TEST3CDN-CJNTEST3 | 优选 | 8,TEST3CDN-CJNTEST3 | 优选 | 7,TEST3CDN-CJNTEST3 | 优选 | 6,TEST3CDN-CJNTEST3 | 优选 | 5,TEST3CDN-CJNTEST3 | 优选 | 4,日本C-线路2 | TCP,TEST3CDN-CJNTEST3 | 优选 | 2,TEST3CDN-CJNTEST3 | 优选 | 1,美国A-CMI专线1,日本C-CMI专线2,US🐲™️【免费共享】-5,TEST3CDN-CJNTEST3 | 优选 | 3,美国C-线路2 | TCP,德国-线路1 | TCP,SG🐲™️【免费共享】-7,香港A-线路1 | TCP,美国B-线路2 | TCP,越南-线路1 | TCP,US🐲™️【免费共享】,日本B-线路2 | TCP,新加坡B-CMI专线2,JP🐲™️【免费共享】-3,KR🐲™️【免费共享】-8,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV-2,新加坡A-CMI专线1,TEST3-CJNTEST3,美国A-线路2 | TCP,美国A-CMI专线2,TW🐲™️【免费共享】-3,US🐲™️【免费共享】-9,日本A-线路2 | TCP,美国B-CMI专线1,US🐲™️【免费共享】-2,TEST3CDN-CJNTEST3 | 优选4 | 9,TEST3CDN-CJNTEST3 | 优选4 | 8,JP🐲™️【免费共享】-7,TEST3CDN-CJNTEST3 | 优选4 | 7,SG🐲™️【免费共享】-4,美国D-线路4 | HY2,TEST3CDN-CJNTEST3 | 优选4 | 6,美国B-CMI专线2,TEST3CDN-CJNTEST3 | 优选4 | 5,TW🐲™️【免费共享】-7,TEST3CDN-CJNTEST3 | 优选4 | 4,TEST3CDN-CJNTEST3 | ELVIS优选IP | 1,英国-CMI专线1,TEST3CDN-CJNTEST3 | 优选4 | 3,美国C-CMI专线1,TEST3CDN-CJNTEST3 | 优选4 | 2,新加坡A-CMI专线2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 2,TEST3CDN-CJNTEST3 | 优选4 | 1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 3,TEST3CDN-CJNTEST3 | ELVIS优选IP | 4,KR🐲™️【免费共享】-5,US🐲™️【免费共享】-6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 5,越南-CMI专线1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 6,TW🐲™️【免费共享】,TEST3CDN-CJNTEST3 | ELVIS优选IP | 7,SG🐲™️【免费共享】-8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 9,TEST3CDN-CJNTEST3 | ELVIS优选IP | 10,美国C-CMI专线2,JP🐲™️【免费共享】-4,KR🐲™️【免费共享】-9,JP🐲™️【免费共享】,香港A-CMI专线1,TEST3CDN-CJNTEST3 | 优选4 | 10,新加坡A-线路2 | TCP,新加坡C-线路2 | TCP,德国-线路2 | TCP,TW🐲™️【免费共享】-4,KR🐲™️【免费共享】-2,英国-线路1 | TCP,US🐲™️【免费共享】-3,香港B-线路2 | TCP,香港A-CMI专线2,JP🐲™️【免费共享】-8,SG🐲™️【免费共享】-5,台湾-线路1 | TCP,美国C-线路1 | TCP,香港B-CMI专线1,TW🐲™️【免费共享】-8,日本C-线路1 | TCP,KR🐲™️【免费共享】-6,新加坡B-线路2 | TCP,香港A-线路2 | TCP,美国B-线路1 | TCP,US🐲™️【免费共享】-7,日本B-线路1 | TCP,香港B-CMI专线2,TW🐲™️【免费共享】-10,美国A-线路1 | TCP,德国-线路4 | HY2,JP🐲™️【免费共享】-5,SG🐲™️【免费共享】-2,日本A-线路1 | TCP,新加坡A-线路1 | TCP,新加坡C-线路1 | TCP,TEST3CDN-CJNTEST3 | 优选3 | 9,TEST3CDN-CJNTEST3 | 优选3 | 10,KR🐲™️【免费共享】-10,日本A-CMI专线1,加拿大-CMI专线1,TEST3CDN-CJNTEST3 | 优选3 | 8,TEST3CDN-CJNTEST3 | 优选3 | 7,KR🐲™️【免费共享】-3,台湾-CMI专线1,TEST3CDN-CJNTEST3 | 优选3 | 6,香港C-CMI专线2,新加坡C-CMI专线1,TEST3CDN-CJNTEST3 | 优选3 | 5,TW🐲™️【免费共享】-5,TEST3CDN-CJNTEST3 | 优选3 | 4,US🐲™️【免费共享】-4,加拿大-线路4 | HY2,TEST3CDN-CJNTEST3 | 优选3 | 3,SG🐲™️【免费共享】,TEST3CDN-CJNTEST3 | 优选3 | 2,SG🐲™️【免费共享】-6,TEST3CDN-CJNTEST3 | 优选3 | 1,日本A-CMI专线2,摩尔多瓦-线路1 | TCP,TW🐲™️【免费共享】-9,日本B-CMI专线1,新加坡B-线路1 | TCP,JP🐲™️【免费共享】-2,KR🐲™️【免费共享】-7,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV,TW🐲™️【免费共享】-2,US🐲™️【免费共享】-10,US🐲™️【免费共享】-8,use=true,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=.*🚀 策略选择 = url-test,♻️ ALL,🇨🇳 台湾节点,🇬🇧 英国节点,🇯🇵 日本节点,🇭🇰 香港节点,🇸🇬 新加坡节点,🇺🇸 美国节点,🇰🇷 韩国节点,🇷🇺 俄罗斯节点,🇮🇳 印度,🇩🇪 德国,🇨🇦 加拿大,ELVISCJNGOOD.CCWU.CC,LOCAL-SERVERS,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV-2,CDN,VPS🛜,➡️优先使用,policy-select-name=CDN,interval=600,tolerance=50,timeout=5,url=http://www.gstatic.com/generate_204
+
 📲 Telegram = url-test, ➡️优先使用,policy-select-name= ➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 📹 YouTube = url-test,➡️优先使用,policy-select-name=➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 🎥 Netflix = url-test,➡️优先使用,policy-select-name=➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 🎬 Disney+ = url-test,➡️优先使用,policy-select-name=➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 🎻 Spotify = url-test,➡️优先使用,policy-select-name=➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 X = url-test,TEST3CDN-CJNTEST3 | 优选3 | 9,CLOUDFLARESUB.QQ2049323189.WORKERS.DEV-4,LOCAL-SERVERS,TEST3-CJNTEST3,TEST3CDN-CJNTEST3 | 优选 | 4,TEST3CDN-CJNTEST3 | 优选 | 8,美国C-CMI专线1,美国A-线路2 | TCP,美国C-CMI专线2,TEST3CDN-CJNTEST3 | 优选 | 1,TEST3CDN-CJNTEST3 | 优选4 | 1,TEST3CDN-CJNTEST3 | 优选 | 10,TEST3CDN-CJNTEST3 | 优选4 | 3,美国C-线路2 | TCP,TEST3CDN-CJNTEST3 | 优选 | 5,TEST3CDN-CJNTEST3 | 优选4 | 5,TEST3CDN-CJNTEST3 | 优选3 | 2,TEST3CDN-CJNTEST3 | 优选3 | 10,TEST3CDN-CJNTEST3 | 优选4 | 7,TEST3CDN-CJNTEST3 | 优选3 | 4,TEST3CDN-CJNTEST3 | 优选 | 9,TEST3CDN-CJNTEST3 | 优选4 | 9,TEST3CDN-CJNTEST3 | 优选3 | 6,美国B-线路1 | TCP,美国A-CMI专线1,TEST3CDN-CJNTEST3 | 优选3 | 8,TEST3CDN-CJNTEST3 | 优选4 | 10,美国A-CMI专线2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 3,TEST3CDN-CJNTEST3 | 优选 | 2,TEST3CDN-CJNTEST3 | ELVIS优选IP | 4,TEST3CDN-CJNTEST3 | 优选 | 6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 5,TEST3CDN-CJNTEST3 | ELVIS优选IP | 6,TEST3CDN-CJNTEST3 | ELVIS优选IP | 7,TEST3CDN-CJNTEST3 | ELVIS优选IP | 8,TEST3CDN-CJNTEST3 | ELVIS优选IP | 9,美国B-线路2 | TCP,美国B-CMI专线1,TEST3CDN-CJNTEST3 | ELVIS优选IP | 10,美国A-线路1 | TCP,TEST3CDN-CJNTEST3 | 优选4 | 2,TEST3CDN-CJNTEST3 | 优选 | 3,TEST3CDN-CJNTEST3 | 优选4 | 4,美国D-线路4 | HY2,TEST3CDN-CJNTEST3 | 优选3 | 1,TEST3CDN-CJNTEST3 | 优选 | 7,TEST3CDN-CJNTEST3 | 优选4 | 6,美國B-CMI专线2,TEST3CDN-CJNTEST3 | 优选3 | 3,TEST3CDN-CJNTEST3 | 优选4 | 8,TEST3CDN-CJNTEST3 | 优选3 | 5,美国C-线路1 | TCP,TEST3CDN-CJNTEST3 | 优选3 | 7,use=true,interval=600,tolerance=100,policy-select-name=美国B-CMI专线1,timeout=5,url=http://www.gstatic.com/generate_204
+
 🪙 Paypal[直连] = url-test,🌐 全球直连,policy-select-name=🌐 全球直连,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 📖 Reddit = url-test,➡️优先使用,policy-select-name=➡️优先使用interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 🐦 Discord = url-test,➡️优先使用,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 📽 哔哩哔哩[直连] = select,🌐 全球直连,🇭🇰 香港节点,🇨🇳 台湾节点,policy-select-name=🌐 全球直连
+
 🍿 国外媒体 = url-test,🚀 策略选择,policy-select-name=🚀 策略选择,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204
+
 🍔 国内媒体[直连] = select,🌐 全球直连,policy-select-name=🌐 全球直连
+
 🍟 新浪微博 = select, 🌐 全球直连,select=0
+
 Ⓜ️ 微软服务[直连] = select,🌐 全球直连,policy-select-name=🌐 全球直连
+
 🍎 苹果服务[直连] = select,🌐 全球直连,policy-select-name=🌐 全球直连
+
 🎮 游戏平台[直连] = select,🌐 全球直连,policy-select-name=🌐 全球直连
+
 🇼🇸台湾节点 = url-test,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=台湾|TW
+
 🇭🇰 香港节点 = url-test,interval=600,tolerance=100,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=港|HK
+
 🇺🇸 美国节点 = url-test,url=http://www.gstatic.com/generate_204,interval=600,tolerance=100,timeout=5,policy-regex-filter=(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$
+
 🇰🇷 韩国节点 = url-test,url=http://www.gstatic.com/generate_204,interval=600,tolerance=100,timeout=5,policy-regex-filter=(?=.*(KR|Korea|KOR|首尔|韩|韓|(?i)Korea))^((?!(香港|台湾|新加坡|美国|狮城|南朝鲜|US|SG|HK|TW|台灣|美國|獅城)).)*$
+
 🇷🇺 俄罗斯节点 = url-test,url=http://www.gstatic.com/generate_204,interval=600,tolerance=100,timeout=5,policy-regex-filter=🇷🇺|俄罗斯|RU|莫斯科|圣彼得堡|喀山|哈尔科夫|乌法|新西伯利亚|下诺夫哥罗德|沃罗涅什
+
 🇬🇧 英国节点 = url-test,url=http://www.gstatic.com/generate_204,interval=600,tolerance=100,timeout=5,policy-regex-filter=🇬🇧|英国|UK|伦敦|英格兰|伯明翰|泰恩河畔纽卡斯尔|利兹|爱丁堡|格拉斯哥|苏格兰
+
 🇯🇵 日本节点 = url-test,url=http://www.gstatic.com/generate_204,interval=600,tolerance=100,timeout=5,policy-regex-filter=(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$
+
 🇸🇬 新加坡节点 = url-test,policy-select-name=新加坡A-CMI专线2,interval=600,tolerance=100,url=http://www.gstatic.com/generate_204,timeout=5,policy-regex-filter=(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$
+
 🇮🇳 印度 = url-test,url=http://www.gstatic.com/generate_204,interval=600,tolerance=100,timeout=5,policy-regex-filter=🇮🇳|印度|IN|IND|孟买|新德里|高知|Republic of India|India
+
 🇩🇪 德国 = url-test,url=http://www.gstatic.com/generate_204,interval=600,tolerance=100,timeout=5,policy-regex-filter=🇩🇪|德国|DEU|DE|柏林|慕尼黑|汉堡|科隆|Germany
+
 🇨🇦 加拿大 = url-test,policy-select-name=加拿大-CMI专线1,interval=600,tolerance=100,url=http://www.gstatic.com/generate_204,timeout=5,policy-regex-filter=🇨🇦|加拿大|CA|渥太华
 
 [Rule]
@@ -71,9 +109,9 @@ RULE-SET,https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Shado
 DOMAIN-SUFFIX,app-analytics-services.com,REJECT
 
 # ━━━━━━━━━━━━━━ GITHUB (开发者核心 / 防卡死) ━━━━━━━━━━━━━━
-DOMAIN-KEYWORD,github,US专线
-DOMAIN-SUFFIX,github.com,US专线
-DOMAIN-SUFFIX,githubusercontent.com,US专线
+DOMAIN-KEYWORD,github,US专线/US券商
+DOMAIN-SUFFIX,github.com,US专线/US券商
+DOMAIN-SUFFIX,githubusercontent.com,US专线/US券商
 
 # ━━━━━━━━━━━━━━ AI 生产力核心 (高优防封) ━━━━━━━━━━━━━━
 # OpenAI / ChatGPT
@@ -98,88 +136,29 @@ DOMAIN-SUFFIX,poe.com,AI
 RULE-SET,https://yfamilys.com/rule/ai.list,AI
 DOMAIN-SUFFIX,yfamilys.com,AI
 
-# ━━━━━━━━━━━━━━ Web3 加密货币与交易行情 ━━━━━━━━━━━━━━
+# ━━━━━━━━━━━━━━ Web3 CRYPTO&TRADING ━━━━━━━━━━━━━━
 # Binance
-DOMAIN-SUFFIX,www.binance.com,台湾-CMI专线1
+DOMAIN-SUFFIX,www.binance.com,台湾专线(crypto)
 
 # Bybit
-DOMAIN-KEYWORD,bybit,台湾-CMI专线1
+DOMAIN-KEYWORD,bybit,台湾专线(crypto)
 
 # Bitget
-DOMAIN-KEYWORD,bitget,台湾-CMI专线1
-DOMAIN-SUFFIX,testimg.bitgetapp.com,台湾-CMI专线1
-DOMAIN-SUFFIX,appapi.bitget.com,台湾-CMI专线1
-DOMAIN-SUFFIX,stream.bitget.com,台湾-CMI专线1
+DOMAIN-KEYWORD,bitget,台湾专线(crypto)
+DOMAIN-SUFFIX,testimg.bitgetapp.com,台湾专线(crypto)
+DOMAIN-SUFFIX,appapi.bitget.com,台湾专线(crypto)
+DOMAIN-SUFFIX,stream.bitget.com,台湾专线(crypto)
 
 # SafePal
-DOMAIN-KEYWORD,isafepal,台湾-CMI专线1
-DOMAIN-KEYWORD,isafepal.com,台湾-CMI专线1
+DOMAIN-KEYWORD,isafepal,台湾专线(crypto)
+DOMAIN-KEYWORD,isafepal.com,台湾专线(crypto)
 
 # TradingView
-DOMAIN-SUFFIX,tradingview.com,US专线
+DOMAIN-SUFFIX,tradingview.com,US专线/US券商
 
 # Plasma
-DOMAIN-KEYWORD,plasma,US专线
+DOMAIN-KEYWORD,plasma,US专线/US券商
 
-# ━━━━━━━━━━━━━━ 全球主机与电竞游戏 ━━━━━━━━━━━━━━
-# Supercell (COC)
-DOMAIN-SUFFIX,clash-static.inbox-staging.supercell.com,COC
-DOMAIN-SUFFIX,clash-static.inbox.supercell.com,COC
-DOMAIN-SUFFIX,clashofclans.inbox.supercell.com,COC
-DOMAIN-SUFFIX,collector.snowplow.supercell.com,COC
-DOMAIN-SUFFIX,inventory.mtech.supercell.com,COC
-DOMAIN-SUFFIX,id.supercell.com,COC
-DOMAIN-KEYWORD,supercell,COC
-DOMAIN-SUFFIX,store.supercell.com,COC
-
-# 英雄联盟 (国服掌盟/接口)
-DOMAIN-SUFFIX,mlol.qt.qq.com,🌐 全球直连
-DOMAIN-SUFFIX,otheve.beacon.qq.com,🌐 全球直连
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com,🌐 全球直连
-DOMAIN-SUFFIX,lol.secure.dyn.riotcdn.net,US专线
-DOMAIN-SUFFIX,mtrace.qq.com,🌐 全球直连
-DOMAIN-SUFFIX,oth.str.mdt.qq.com,🌐 全球直连
-DOMAIN-SUFFIX,lol.secure.dyn.riotcdn.net,US专线
-
-# 主机/PC 平台 (Sony / PlayStation)
-RULE-SET,https://yfamilys.com/rule/PlayStation.list,🎮 游戏平台[直连]
-RULE-SET,https://yfamilys.com/rule/Sony.list,🎮 游戏平台[直连]
-
-# 主机/PC 平台 (Epic Games)
-RULE-SET,https://yfamilys.com/rule/Epic.list,🎮 游戏平台[直连]
-
-# 主机/PC 平台 (Valve / Steam)
-RULE-SET,https://yfamilys.com/rule/Steam.list,🎮 游戏平台[直连]
-DOMAIN-KEYWORD,steam,🎮 游戏平台[直连]
-
-# 主机/PC 平台 (Nintendo)
-RULE-SET,https://yfamilys.com/rule/Nintendo.list,🎮 游戏平台[直连]
-
-# 主机/PC 平台 (Blizzard)
-RULE-SET,https://yfamilys.com/rule/Blizzard.list,🎮 游戏平台[直连]
-
-# 主机/PC 平台 (Ubisoft)
-DOMAIN-KEYWORD,ubisoft,🎮 游戏平台[直连]
-
-# 主机/PC 平台 (完美世界)
-RULE-SET,https://yfamilys.com/rule/WanMeiShiJie.list,🎮 游戏平台[直连]
-
-# ━━━━━━━━━━━━━━ Apple 服务矩阵 ━━━━━━━━━━━━━━
-DOMAIN-SUFFIX,apple.com,🌐 全球直连
-DOMAIN,appstoreconnect.apple.com,🌐 全球直连
-DOMAIN,iosapps-ssl.itunes.apple.com,🌐 全球直连
-DOMAIN,itcmobile.itunes.apple.com,🌐 全球直连
-DOMAIN,mesu.apple.com,🌐 全球直连
-DOMAIN,gdmf.apple.com,🌐 全球直连
-DOMAIN,updates-http.cdn-apple.com,🌐 全球直连
-DOMAIN,xp.apple.com,🌐 全球直连
-RULE-SET,https://yfamilys.com/rule/Apple.list,🍎 苹果服务[直连]
-RULE-SET,https://yfamilys.com/rule/AppStore.list,🍎 苹果服务[直连]
-RULE-SET,https://yfamilys.com/rule/AppleProxy.list,➡️优先使用
-DOMAIN-SUFFIX,ec.pcms.apple.com,🌐 全球直连
-DOMAIN-SUFFIX,cstat.cdn-apple.com,🌐 全球直连
-DOMAIN-SUFFIX,app-site-association.cdn-apple.com,🌐 全球直连
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,🌐 全球直连
 
 # ━━━━━━━━━━━━━━ 金融、法币券商与数字银行 ━━━━━━━━━━━━━━
 # 建设银行
@@ -209,24 +188,111 @@ DOMAIN-KEYWORD,ifastgb,🌐 全球直连
 DOMAIN-SUFFIX,communication-app.ifastgb.com,🌐 全球直连
 DOMAIN-SUFFIX,sentry.ifastgb.com,🌐 全球直连
 
+
+# ━━━━━━━━━━━━━━ US-券商 ━━━━━━━━━━━━━━━
 # Charles Schwab (嘉信理财)
-DOMAIN-KEYWORD,schwab,US专线
+DOMAIN-KEYWORD,schwab,US专线/US券商
 
 # TD Ameritrade (Thinkorswim)
-DOMAIN-KEYWORD,thinkorswim,US专线
+DOMAIN-KEYWORD,thinkorswim,US专线/US券商
 
 # Interactive Brokers (盈透证券)
-DOMAIN-KEYWORD,interactivebrokers,US专线
-DOMAIN-SUFFIX,ibkr,US专线
+DOMAIN-KEYWORD,interactivebrokers,US专线/US券商
+DOMAIN-SUFFIX,ibkr,US专线/US券商
 
 # Firstrade (第一证券)
-DOMAIN-KEYWORD,firstrade,US专线
+DOMAIN-KEYWORD,firstrade,US专线/US券商
+# ━━━━━━━━━━━━━━ HK-券商 ━━━━━━━━━━━━━━
+# chief (致富证券)
+DOMAIN-KEYWORD,chief,🌐 全球直连
+DOMAIN-KEYWORD,chieftrader1979,🌐 全球直连
+DOMAIN-SUFFIX,chief-deposit.cm-chiefgroup.com,🌐 全球直连
+DOMAIN-SUFFIX,chief-deposit.zft2025.com,🌐 全球直连
+DOMAIN-SUFFIX,chief-deposit.chiefgroup.com.hk,🌐 全球直连
+DOMAIN-KEYWORD,chieftrader,🌐 全球直连
+
+
+#          (盈立证券)
+
+
+# Giga money (腾达证券)
+
+
+#          (卓锐证券)
+
+
+#          (复星国际证券)
+
 
 # 国际支付 (Wise)
 DOMAIN-KEYWORD,wise.com,🌐 全球直连
 
 # 国际支付 (PayPal)
 RULE-SET,https://yfamilys.com/rule/PayPal.list,🪙 PAYPAL[直连]
+
+
+# ━━━━━━━━━━━━━━ 全球主机与电竞游戏 ━━━━━━━━━━━━━━
+# Supercell (COC)
+DOMAIN-SUFFIX,clash-static.inbox-staging.supercell.com,COC
+DOMAIN-SUFFIX,clash-static.inbox.supercell.com,COC
+DOMAIN-SUFFIX,clashofclans.inbox.supercell.com,COC
+DOMAIN-SUFFIX,collector.snowplow.supercell.com,COC
+DOMAIN-SUFFIX,inventory.mtech.supercell.com,COC
+DOMAIN-SUFFIX,id.supercell.com,COC
+DOMAIN-KEYWORD,supercell,COC
+DOMAIN-SUFFIX,store.supercell.com,COC
+
+# 英雄联盟 (国服掌盟/接口)
+DOMAIN-SUFFIX,mlol.qt.qq.com,🌐 全球直连
+DOMAIN-SUFFIX,otheve.beacon.qq.com,🌐 全球直连
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com,🌐 全球直连
+DOMAIN-SUFFIX,lol.secure.dyn.riotcdn.net,US专线/US券商
+DOMAIN-SUFFIX,mtrace.qq.com,🌐 全球直连
+DOMAIN-SUFFIX,oth.str.mdt.qq.com,🌐 全球直连
+DOMAIN-SUFFIX,lol.secure.dyn.riotcdn.net,US专线/US券商
+
+# 主机/PC 平台 (Sony / PlayStation)
+RULE-SET,https://yfamilys.com/rule/PlayStation.list,🎮 游戏平台[直连]
+RULE-SET,https://yfamilys.com/rule/Sony.list,🎮 游戏平台[直连]
+
+# 主机/PC 平台 (Epic Games)
+RULE-SET,https://yfamilys.com/rule/Epic.list,🎮 游戏平台[直连]
+
+# 主机/PC 平台 (Valve / Steam)
+RULE-SET,https://yfamilys.com/rule/Steam.list,🎮 游戏平台[直连]
+DOMAIN-KEYWORD,steam,🎮 游戏平台[直连]
+
+# 主机/PC 平台 (Nintendo)
+RULE-SET,https://yfamilys.com/rule/Nintendo.list,🎮 游戏平台[直连]
+
+# 主机/PC 平台 (Blizzard)
+RULE-SET,https://yfamilys.com/rule/Blizzard.list,🎮 游戏平台[直连]
+
+# 主机/PC 平台 (Ubisoft)
+DOMAIN-KEYWORD,ubisoft,🎮 游戏平台[直连]
+
+# 主机/PC 平台 (完美世界)
+RULE-SET,https://yfamilys.com/rule/WanMeiShiJie.list,🎮 游戏平台[直连]
+
+# ━━━━━━━━━━━━━━ Apple 服务矩阵 ━━━━━━━━━━━━━━
+
+DOMAIN-SUFFIX,apple.com,🌐 全球直连
+DOMAIN,appstoreconnect.apple.com,🌐 全球直连
+DOMAIN,iosapps-ssl.itunes.apple.com,🌐 全球直连
+DOMAIN,itcmobile.itunes.apple.com,🌐 全球直连
+DOMAIN,mesu.apple.com,🌐 全球直连
+DOMAIN,gdmf.apple.com,🌐 全球直连
+DOMAIN,updates-http.cdn-apple.com,🌐 全球直连
+DOMAIN,xp.apple.com,🌐 全球直连
+RULE-SET,https://yfamilys.com/rule/Apple.list,🍎 苹果服务[直连]
+RULE-SET,https://yfamilys.com/rule/AppStore.list,🍎 苹果服务[直连]
+RULE-SET,https://yfamilys.com/rule/AppleProxy.list,➡️优先使用
+DOMAIN-SUFFIX,ec.pcms.apple.com,🌐 全球直连
+DOMAIN-SUFFIX,cstat.cdn-apple.com,🌐 全球直连
+DOMAIN-SUFFIX,app-site-association.cdn-apple.com,🌐 全球直连
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,🌐 全球直连
+
+
 
 # ━━━━━━━━━━━━━━ 社交媒体 (精准分流) ━━━━━━━━━━━━━━
 # X (Twitter)
@@ -400,7 +466,7 @@ DOMAIN-SUFFIX,people-pa.googleapis.com,➡️优先使用
 RULE-SET,https://yfamilys.com/rule/Google.list,➡️优先使用
 RULE-SET,https://yfamilys.com/rule/Microsoft.list,Ⓜ️ 微软服务[直连]
 
-# ━━━━━━━━━━━━━━ 私人域名━━━━━━━━━━━━━━
+# ━━━━━━━━━━━━━━ 私有域名━━━━━━━━━━━━━━
 DOMAIN-SUFFIX,elviscjngood.ccwu.cc,➡️优先使用
 
 # ━━━━━━━━━━━━━━ 国内外兜底与 IP 分流 ━━━━━━━━━━━━━━
@@ -417,8 +483,7 @@ DOMAIN-SET,https://yfamilys.com/rule/Proxy.list,➡️优先使用
 FINAL,➡️优先使用
 
 [MITM]
+h2 = true
 ca-passphrase = 6BVYHhQb
 ca-p12 = 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
 enable = true
-
-```
